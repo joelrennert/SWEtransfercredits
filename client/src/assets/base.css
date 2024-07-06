@@ -71,7 +71,9 @@ html {
   width: 0;  
   background: transparent;
 }
-
+a {
+  color: black;
+}
 body {
   min-height: 100vh;
   color: var(--color-text);
