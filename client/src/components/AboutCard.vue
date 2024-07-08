@@ -6,8 +6,6 @@
         <img src="/src/assets/pencil-svgrepo-com.svg" width="200px" />
         <img src="/src/assets/macbook-pro-svgrepo-com.svg" width="200px" />
         <img src="/src/assets/8494639.png" width="200px" />
-        
-
       </div>
       <div class="text">
         <p>
@@ -86,10 +84,7 @@ export default {}
   background: rgba(255, 255, 255, 0.116);
   border: 1px solid rgb(0, 0, 0);
   box-shadow: 5px 5px 6px 2px rgba(0, 0, 0, 0.2);
-
-  /* background-color: rgb(38, 55, 68) 100%; */
   background-color: #314c60;
-  
 }
 
 .name {
@@ -102,7 +97,6 @@ export default {}
   font-family: 'Jura';
   background-color: rgba(255, 255, 255, 0.23);
   padding: 6px;
-  /* border-radius: 10px; */
   width: 100%;
   background-color: #314c60;
 }

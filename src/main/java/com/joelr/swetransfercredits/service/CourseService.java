@@ -18,12 +18,10 @@ public class CourseService {
     }
 
     public Course updateCompleted(Course course, int id) {
-        // Assuming course object already has updated completion status
         return courseDao.updateCompleted(course, course.isCompleted());
     }
 
     public Course updateAttending(Course course, int id) {
-        // Assuming course object already has updated attending status
         return courseDao.updateAttending(course, course.isAttending());
     }
 }

@@ -28,7 +28,7 @@ public class CourseController {
         return courseService.updateCompleted(course, id);
     }
 
-    // Update attending status
+    // Update attending status - not working in front end yet
     @PutMapping("/{id}/attending")
     public Course updateAttending(@PathVariable int id, @RequestBody Course course) {
         return courseService.updateAttending(course, id);

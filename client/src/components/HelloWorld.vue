@@ -16,12 +16,10 @@ export default {
 </script>
 
 <template>
-  <div class="greetings">
-  </div>
+  <div class="greetings"></div>
 </template>
 
 <style scoped>
-
 h4 {
   font-family: 'Moirai One';
   /* font-family: 'Jura'; */
@@ -43,7 +41,6 @@ img {
 @media (min-width: 768) {
   .greetings h1,
   .greetings h3 {
-
     text-align: center;
   }
 }

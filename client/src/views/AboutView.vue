@@ -54,7 +54,6 @@ export default {
   justify-content: space-evenly;
   flex-grow: 1;
   width: 80%;
-  /* padding: 5px; */
 }
 .cardscontainer {
   display: flex;

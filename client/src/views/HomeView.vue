@@ -55,7 +55,7 @@ onMounted(getCourses)
 .h4title {
   display: flex;
   font-family: 'Jura';
-  
+
   font-size: 1.4rem;
   color: rgb(255, 255, 255);
   color: #ffffff;
@@ -70,15 +70,11 @@ onMounted(getCourses)
   justify-content: space-evenly;
   flex-grow: 1;
   width: 80%;
-  /* padding: 5px; */
 }
 .cardscontainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* flex-wrap: wrap; */
-  /* margin-top: 20px;
-  margin-bottom: 50px; */
   width: 100vw;
 }
 main {
@@ -104,8 +100,6 @@ main {
     z-index: 10;
     width: 100vw;
     height: 10%;
-    /* border-bottom-right-radius: 12px;
-     border-bottom-left-radius: 12px;  */
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);

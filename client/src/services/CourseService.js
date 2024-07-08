@@ -5,11 +5,13 @@ const http = axios.create({
 })
 
 export default {
+  // Get all courses
   list() {
-    return http.get('/') // Retrieves all courses
+    return http.get('/')
   },
 
+  // Updates completed status
   update(id, course) {
-    return http.put(`/${id}/completed`, course) // Updates completion status
+    return http.put(`/${id}/completed`, course)
   }
 }

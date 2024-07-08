@@ -51,11 +51,9 @@ const updateCompleted = (course) => {
   CourseService.update(course.id, { completed: course.completed })
     .then((response) => {
       console.log('Course updated successfully:', response.data)
-      // Optionally handle success feedback or reload data
     })
     .catch((error) => {
       console.error('Error updating course:', error)
-      // Optionally handle error feedback
     })
 }
 </script>
@@ -82,15 +80,7 @@ const updateCompleted = (course) => {
   align-items: center;
   color: rgb(255, 255, 255);
   box-shadow: 5px 5px 6px 2px rgba(0, 0, 0, 0.2);
-
   background-color: #314c60;
-  /* background: linear-gradient(
-    90deg,
-    rgba(49, 76, 96, 1) 0%,
-    rgba(50, 78, 99, 1) 50%,
-    rgba(49, 76, 96, 1) 100%
-  ); */
-
   padding-bottom: 25px;
 }
 
@@ -109,7 +99,6 @@ const updateCompleted = (course) => {
 .courseTable td {
   border: 1px solid #3b648228;
   text-align: left;
-  /* background-color: rgba(169, 169, 169, 0.112); */
   padding: 12px;
 }
 
@@ -131,9 +120,8 @@ const updateCompleted = (course) => {
   cursor: pointer;
 }
 
-/* New styles for completed rows */
 .completedRow {
-  background-color: #46625c !important; /* Light green background */
+  background-color: #46625c !important;
   font-style: italic;
 }
 </style>
